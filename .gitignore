@@ -1,0 +1,20 @@
+# Ne jamais versionner les modèles téléchargés
+llm-server/models/
+
+# Cache Python / temporaire
+__pycache__/
+*.pyc
+
+# Fichiers sensibles ou de config locale
+.env
+*.log
+
+# Docker artefacts
+docker-compose.override.yml
+
+# VSCode (optionnel, selon config locale)
+.vscode/
+
+# Node.js (si frontend un jour)
+node_modules/
+dist/
